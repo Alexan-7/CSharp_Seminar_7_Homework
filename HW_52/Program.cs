@@ -27,7 +27,7 @@ void Fill2DArray(int[,] numbers, int height, int width)
     {
         for (int j = 0; j < width; j++)
         {
-            numbers[i, j] = new Random().Next(-10, 11);
+            numbers[i, j] = new Random().Next(-20, 21);
         }
     }
 }
